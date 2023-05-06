@@ -1,1 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+
+body {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 300;
+    font-size: 200%;
+    color: blanchedalmond;
+}
+
+body h1 {
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+}
+body h3 {
+    font-size: 50%;
+    color: blue;
+    margin-right: auto;
+    padding: 10% 10%;
+}
+/*---Fixed Images---*/
+.fixedImage {
+    background: url('img/sunrise2022.png'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+.fixedImage-inner {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
