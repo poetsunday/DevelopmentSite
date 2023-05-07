@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
-
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
 body {
     font-family: "Lobster Two", sans-serif;
     font-weight: 300;
@@ -14,13 +18,13 @@ body h1 {
 }
 body h3 {
     font-size: 50%;
-    color: blue;
+    color: blanchedalmond;
     margin-right: auto;
     padding: 10% 10%;
 }
 /*---Fixed Images---*/
 .fixedImage {
-    background: url("img/test.jpg") repeat fixed 100%;
+    background: url("/img/test.jpg") no-repeat fixed 100%;
     text-align: center;
 }
 .fixedImage-inner {
